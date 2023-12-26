@@ -49,26 +49,9 @@ public class Yudim {
     int score3=scan.nextInt();
     int average=(score+score2+score3)/3;
     System.out.println("the average is: "+average);
-	 
-	 // 5
-	 System.out.println("exercise5");
-	 System.out.println("enter 3 numbers: ");
-	 int num4=scan.nextInt();
-	 int num6=scan.nextInt();
-	 int num5=scan.nextInt();
-	 if (num4>num5)
-		 if (num4>num6)
-			 System.out.println("the biggest number is: "+ num4);
-	 if (num5>num4)
-		 if (num5>num6)
-			 System.out.println("the biggest number is: "+ num5);
-	 if (num6>num5)
-		 if (num6>num4)
-			 System.out.println("the biggest number is: "+ num6);
-     //6
 	 	
-     //7
-     System.out.println("exercise7");
+     //5
+     System.out.println("exercise5");
      System.out.println("Enter the first term:");
      int firstTerm = scan.nextInt();
      System.out.println("Enter the difference:");
@@ -77,17 +60,11 @@ public class Yudim {
      int tenth_term = firstTerm + 9 * commonDifference;
      System.out.println("The fifth term of the arithmetic sequence is: " + fifth_term);
      System.out.println("The tenth term of the arithmetic sequence is: " + tenth_term);
+
+     //6
      
-     //8
-     System.out.println("exercise8");
-     System.out.println("enter a radius of circle");
-     double radius=scan.nextDouble();
-     double area=(radius*radius*3.14);
-     double scope=(radius*2*3.14);
-     System.out.println("the area of circle is: "+area+" and the scope is "+scope);
-     
-     //9
-     System.out.println("exercise9");
+     //7
+     System.out.println("exercise7");
      System.out.println("Enter your first name and last name:");
      String name = scan.nextLine();
      System.out.println("Enter your school:");
@@ -98,8 +75,8 @@ public class Yudim {
      System.out.println("My school is: " + school);
      System.out.println("The number of subjects I study is: " + subjects);
      
-     //10
-     System.out.println("exercise10");
+     //8
+     System.out.println("exercise8");
      System.out.println("Enter a three-digit number:");
      int number = scan.nextInt();
      int digit1 = number % 10;
