@@ -65,7 +65,8 @@ public class Yudim {
 	 if (num6>num5)
 		 if (num6>num4)
 			 System.out.println("the biggest number is: "+ num6);
-	 
+	 //6.
+		
 	 //7
 	 System.out.println("exercise7");
 	 System.out.println("Enter the first term:");
