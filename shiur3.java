@@ -41,14 +41,14 @@ public class Yudim {
     char firstRider = (time1 < time2) ? initial1 : initial2;
     System.out.println("The rider who arrived first is: " + firstRider);
     
-	// 4
-	System.out.println("exercise4");
-	System.out.println("enter 3 scores");
-	 int score=scan.nextInt();
-	 int score2=scan.nextInt();
-	 int score3=scan.nextInt();
-	 int average=(score+score2+score3)/3;
-	 System.out.println("the average is: "+average);
+    // 4
+    System.out.println("exercise4");
+    System.out.println("enter 3 scores");
+    int score=scan.nextInt();
+    int score2=scan.nextInt();
+    int score3=scan.nextInt();
+    int average=(score+score2+score3)/3;
+    System.out.println("the average is: "+average);
 	 
 	 // 5
 	 System.out.println("exercise5");
@@ -65,11 +65,11 @@ public class Yudim {
 	 if (num6>num5)
 		 if (num6>num4)
 			 System.out.println("the biggest number is: "+ num6);
-	 //6.
-		
-	 //7
-	 System.out.println("exercise7");
-	 System.out.println("Enter the first term:");
+     //6
+	 	
+     //7
+     System.out.println("exercise7");
+     System.out.println("Enter the first term:");
      int firstTerm = scan.nextInt();
      System.out.println("Enter the difference:");
      int commonDifference = scan.nextInt();
@@ -80,6 +80,11 @@ public class Yudim {
      
      //8
      System.out.println("exercise8");
+     System.out.println("enter a radius of circle");
+     double radius=scan.nextDouble();
+     double area=(radius*radius*3.14);
+     double scope=(radius*2*3.14);
+     System.out.println("the area of circle is: "+area+" and the scope is "+scope);
      
      //9
      System.out.println("exercise9");
